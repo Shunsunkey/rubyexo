@@ -1,4 +1,4 @@
-puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ? (Choisis un nombre entre 1 et 25)"
+puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
 print "> "
 height = gets.chomp.to_i
 if height < 1 || height > 25
